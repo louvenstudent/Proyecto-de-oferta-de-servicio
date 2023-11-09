@@ -1,0 +1,51 @@
+
+.listaproyecto {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: #fff;
+    box-shadow: 10px 10px 10px 0px #6b6b6b88; 
+    margin: 1rem;
+    border-radius: 1rem;
+    min-height: 300px;
+    max-width: 800px;
+    
+    margin-top: 50px;
+
+}
+.contenidoProy {
+    position:relative;
+    font-size: 130%;
+    margin: 1rem;
+}
+img {
+    border-radius: 1rem;
+    margin: 0.5rem;
+    max-width: 400px;
+    min-height: 300px;
+    
+}
+.contenidoProy p {
+    max-width: 500px;
+}
+.contenidoProy h2 , h4{
+    margin: 0.5rem 0;
+}
+
+
+/*buton*/
+.botonproyec {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #8A3EFF;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 1rem #fff;
+    
+}
+.botonproyec:hover{
+    box-shadow: 10px 10px 5px 0px #a38dc4; 
+}

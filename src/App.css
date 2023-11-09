@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poooins", sans-serif;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --color1: #0f1819;
+  --color2: #101728;
+  --color3: #1f41bb;
+  --color4: #260e69;
+  --color5: #9340ff;
+ 
+  /*Paleta de colores pricipales*/
+  --uno:#33415C;
+  --dos:#101728;
+  --tres:#ededee;
+  --cuatro:#896BFF;
+}
+/*para toto el html*/
+section[id] {
+  scroll-margin-top: 77px;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  
+}
+body{
+  background: #f2f2f2;
+}
+/*empesamos*/
+
+/*App css*/
+
+
+/**/
+
+
+
+
+
+#check {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1f073b;
+  border-radius: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #260e69;
+}
+
+section {
+  
+  padding: 10rem 1% 2rem;
+}
+
+
+button{
+  cursor: pointer;
+}

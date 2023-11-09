@@ -1,0 +1,65 @@
+:root {
+    --color1:#0f1819;
+    --color2: #2c3e40 ;
+    --color3:#485a5d;
+    --color4:#f5f6f7;
+    --color5:#d2d3d4;
+    --color7:#101728;
+    --color9:#663399;
+    --color10: #9966cc;
+    --color11: #cc99ff;
+    --color12: #ffffff;
+    --color13:  #333333;
+ 
+}
+
+.pie2 {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background:#222D3A;
+    
+}
+/*
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 700px;
+    height: 260px;
+    background-color: var(--color12);
+    border-radius: 10px 10px 0 0;
+    color: #0f1819;
+   
+    
+}
+.footer.footer2{
+    position: fixed;
+    bottom: -210px;
+}
+.footer  .cabesa{ 
+    position: absolute;
+    border: 1px solid #0f1819;
+    width: 100%;
+    height: 50px;
+    color: #0f1819;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between
+    
+}
+.footer  .cabesa h5{
+    font-size: 15px;
+    color: #0f1819;
+    margin:20px ;
+}
+#whatsap {
+    font-size: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+    margin: 20px;
+}
+.cabesa {
+    cursor: pointer;
+}*/

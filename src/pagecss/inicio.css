@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.inicio {
+    background:#101728;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/*prueba*/
+
+.contenedoInicio {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 50%  50%;
+   
+}
+
+.contenedoInicio p {
+    max-width: 80rem;
+    color: #fff;
+    font-size: 17px;
+}
+
+.nombrepagina {
+    text-transform: capitalize;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(40%);
+    animation: transicionNombre 1.5s forwards ease; /* forwards para mantener el estado final */
+    visibility: hidden; /* Ocultar el elemento inicialmente */
+    margin-top: 50px;
+}
+.cuerpopaginaina h2 {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #96A7A6;
+    margin-bottom: 20px;
+}
+.cuerpopaginaina {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    background: #101728;
+    z-index: 1;
+    padding: 45px;
+}
+@keyframes transicionNombre {
+    0% {
+      transform: translateX(100%);
+    }
+    
+    100% {
+      transform: translateX(0%);
+      visibility: visible;
+    }
+  }
+  
+
+  @keyframes aumentarFontSize {
+    0% {
+        color:rgb(68, 70, 55)
+        ;/* Tamaño inicial del font */
+    }
+    20%{
+        color:rgb(125, 125, 83);
+    }
+    50%{
+         color:rgb(100, 103, 65)
+        ;
+    }
+    80%{
+        color:rgb(134, 129, 33)
+        ;
+    }
+    100% {
+        color: #eff304; /* Tamaño final del font */
+    }
+  }
+  
+  .estrella {
+    position: relative;
+    color:rgb(68, 70, 55);
+    font-size: 150px; /* Tamaño inicial del font */
+    top: -10px;
+    margin-right: 2rem;
+    animation-name: aumentarFontSize ; /* Nombre de la animación */
+    animation-duration: 2s ; /* Duración de la animación */
+    animation-delay: 1.5s ; /* Comienza después de 3 segundos */
+    animation-fill-mode: forwards; /* Mantiene el estado final después de la animación */
+  }
+  
+  
+  
+
+.nombrepagina h1 {
+  margin-right: 2rem;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+}
+/*
+.bara{
+    position: absolute;
+    background: #fff;
+    width: 3px;
+    height: 80vh;
+    left: 50%;
+    z-index:2 ;
+    
+}*/
+
+.contacto{
+    margin-top: 30px;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    font-size: 15px;
+    font-weight: 600;
+    background: blueviolet;
+
+}
+/*Beneficios*/
+.beneficios {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+/*cuerpo inicio*/
+.cuerpoInicio {
+    padding: 0;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+#BiTrendingUp {
+    margin-left: 0.5rem;
+    color: #8A2BE2;
+}
+/**/
+
+.iconos {
+    font-size: 50px;
+    margin: 1rem;
+    color: #101728;
+}
+
+.iconos.protegida{
+    color: #1a7134;
+}

@@ -1,0 +1,30 @@
+.carta {
+    position: relative;
+    min-height: 400px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 0 1rem #0000003c;
+    display: flex;
+    justify-content: center;
+
+}
+.carta button {
+    
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border:1px solid #0000003c ;
+    font-weight: 600;
+}
+.carta button:hover {
+    background: #947592;
+}
+.carta:hover button{
+    border: 1.5px solid #000;
+}
+
+.carta div {
+    margin:1.5rem;
+}
