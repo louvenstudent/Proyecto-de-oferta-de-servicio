@@ -31,7 +31,8 @@ export default function Inicio (props){
             {/*<div className="bara"></div>*/}
             {}
             <div className="contenedoInicio">
-                <div>
+                
+               { /*<div>
                     <div className="nombrepagina">
                         <BiSolidStar className="estrella" />
                         <h1> web designs</h1>
@@ -50,7 +51,7 @@ export default function Inicio (props){
                         aumentar las ventas de tu negocio.
                     </p>
                     
-                </div>
+    </div>*/}
         </div>
             
         </section>
