@@ -1,22 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .inicio {
-    background:#101728;
     position: relative;
+    margin-top: 7rem;
+    padding: 0;
+    height:calc(100vh - 7rem);
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('../iniciofotos/5CF664F2-C884-43C4-888D-EC020437EDD0.jpeg');
+    animation: banner 25s infinite linear;
 }
-/*prueba*/
-
 .contenedoInicio {
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    grid-template-columns: 50%  50%;
-   
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 22, 40, .60);
+    
+}
+
+@keyframes banner {
+    0%{
+        background-image: url('../iniciofotos/5CF664F2-C884-43C4-888D-EC020437EDD0.jpeg');
+          
+    }
+    33%{
+        background-image: url('../iniciofotos/3A2664E0-F77B-47A5-86FC-EBB3920CC583.jpeg');  
+    }
+    66%{
+        background-image: url('../iniciofotos/E082E496-57FC-41C0-835A-A09D81C14F02.jpeg');  
+    }
+    100%{
+        background-image: url('../iniciofotos/FB001B17-DBBC-459D-BE7A-2537EC9A8DEA.jpeg');  
+    }
+
 }
 
 .contenedoInicio p {

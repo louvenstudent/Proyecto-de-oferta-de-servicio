@@ -28,31 +28,10 @@ export default function Inicio (props){
         </Routes>
         
         <section className="inicio" id="inicio">
-            {/*<div className="bara"></div>*/}
-            {}
+           
             <div className="contenedoInicio">
-                
-               { /*<div>
-                    <div className="nombrepagina">
-                        <BiSolidStar className="estrella" />
-                        <h1> web designs</h1>
-                    </div>
-                    <h1>hola</h1>
-                    
-                </div>
-
-                <div className="cuerpopaginaina"> 
-                    <h2>Diseño de páginas web ....</h2>
-                    <p>
-                       Lleva tu negocio a otro nivel con una página web diseñada por profesionales. 
-                       Nuestra mision es ayudarte potencial tu negocio mejorando su reputación en línea,
-                        con un sitio web atractivo, 
-                       informativo y fácil de usar, para generar más clientes y
-                        aumentar las ventas de tu negocio.
-                    </p>
-                    
-    </div>*/}
-        </div>
+              
+            </div>
             
         </section>
         
