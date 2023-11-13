@@ -11,21 +11,29 @@ header {
     z-index: 1000;
     box-shadow: 0 0 1rem #000000d3;
   }
-  
+  /*
   .logo {
     font-size: 2.5rem;
-    color: #000;
+    color: #343D5B;
     font-weight: 600;
     cursor: default;
+  }*/
+  .logo img {
+    height: 40px;
+    margin: 0;
+    padding: 0;
   }
   
   header nav li {
     display: inline-block;
     font-size: 1.7rem;
     margin-left: 4rem;
-    color: #000;
+    
   }
-  
+  .cabeza {
+    color: #343D5B;
+    font-weight: 600;
+  } 
   
   #icono {
     font-size: 3.6rem;

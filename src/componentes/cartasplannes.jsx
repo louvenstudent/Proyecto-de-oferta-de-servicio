@@ -8,7 +8,7 @@ export default function Cartas (props){
             <div>
                 <h1>Plan para emprendedores</h1>
                 <h4></h4>
-                <h5>$99.000</h5>
+                <h4>$99.000</h4>
                 <p>hola</p>
                 <button>Contratar</button>
             </div>

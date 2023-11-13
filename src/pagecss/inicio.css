@@ -14,14 +14,45 @@
     animation: banner 25s infinite linear;
 }
 .contenedoInicio {
-    
+    position: relative;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     color: #fff;
-    background-color: rgba(0, 22, 40, .60);
+    background-color: rgba(0, 22, 40, .85);
+    display: flex;
+    align-items: center;
     
+}
+
+.cuerpoinicio {
+    position: absolute;
+    right: 40px;
+    width: 600px;
+}
+.cuerpoinicio h1 {
+    color: antiquewhite;
+    margin-bottom: 1rem;
+    font-size: 40px;
+   /* text-align: center;*/
+}
+.laaccion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.laaccion button {
+    padding: 2rem 3rem ;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 750;
+    color: #343D5B;
+}
+.laaccion span {
+    font-weight: 900;
 }
 
 @keyframes banner {
@@ -157,7 +188,7 @@
     flex-wrap: wrap;
     gap: 35px;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 /*cuerpo inicio*/

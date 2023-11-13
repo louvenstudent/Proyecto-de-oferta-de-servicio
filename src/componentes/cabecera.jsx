@@ -1,4 +1,6 @@
 import { Outlet, Link } from 'react-router-dom'
+import web from '../assets/logo3.png'
+
 import '../cssdecomponentes/cabecera.css'
 
 export default function Cabecera(){
@@ -14,24 +16,26 @@ export default function Cabecera(){
                 <a class="active1" href="sobremi.html">Acerca de mí</a>
             
             </nav> */}
-            <a href="index.html" class="logo">star web designsº</a>
+            <a href="index.html" class="logo">
+                <img className="imglogo" src={web} alt="web" />
+            </a>
             <nav>
                 <ul >
                     <li>
-                        <Link to="/">Inicio</Link>
+                        <Link className='cabeza' to="/">Inicio</Link>
                     </li>
                     <li>
-                        <Link to="/proyecto"> Proyecto</Link>
+                        <Link className='cabeza' to="/proyecto"> Proyecto</Link>
                     </li>
                     
                     <li>
-                        <Link to="/servicio"> Servicio</Link>
+                        <Link className='cabeza' to="/servicio"> Servicio</Link>
                     </li>
                     <li>
-                        <Link to="/acerca-de"> Acerca de mí </Link>
+                        <Link className='cabeza' to="/acerca-de"> Acerca de mí </Link>
                     </li>
                     <li>
-                        <Link to="/blog"> Blog</Link>
+                        <Link className='cabeza' to="/blog"> Blog</Link>
                     </li>
                     
                     

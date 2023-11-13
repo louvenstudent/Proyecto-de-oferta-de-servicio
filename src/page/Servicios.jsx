@@ -3,7 +3,7 @@ import Contacto from './Contacto'
 import PiePagiana from '../componentes/Pie'
 import Cartas from '../componentes/cartasplannes'
 
-import web from '../assets/web.jpg'
+import web from '../assets/web2.png'
 export default function Servicios(){
     return (
         <>

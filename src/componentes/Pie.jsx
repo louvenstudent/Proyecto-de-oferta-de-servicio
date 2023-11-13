@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import web from '../assets/logo4.png'
 import styles from '../pagecss/pie.module.css';
 import { BiLogoWhatsapp } from "react-icons/bi";
 
@@ -11,18 +12,16 @@ export default function PiePagiana() {
 
     return (
         <>
-        
-        {/*<div className={styles.pie} onClick={toggleFooter}>
-            <div className={`${styles.footer} ${isFooterVisible ? styles.footer2 : ''}`} id='pie'>
-                <div className={styles.cabesa}>
-                    <h5>Contactame</h5>
-                    <BiLogoWhatsapp id='whatsap'/>
-                </div>
+        <div className={styles.pie2}>
+            <div className={styles.empresalogo}>
+                <img src={web} alt="web" />
             </div>
-    </div>*/}
-    <div className={styles.pie2}>
-
-    </div>
-    </>
+            <div className={styles.servicios}>
+                
+            </div>
+            <div className={styles.planes}></div>
+            <div className= {styles.contactos}></div>
+        </div>
+        </>
     );
 }

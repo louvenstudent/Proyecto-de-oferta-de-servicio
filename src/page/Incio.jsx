@@ -30,8 +30,16 @@ export default function Inicio (props){
         <section className="inicio" id="inicio">
            
             <div className="contenedoInicio">
-              
+                <div className="cuerpoinicio">
+
+                <h1>Mejora tu presencia en linea</h1>
+                <p>Diseñamos paginas webs amedidas con la mejor experiencia de usuario, optimizadas y  responsivo  
+                    que te adudan a potencial tu presencia en linea diferenciendote de la competencia. </p>
+                <div className="laaccion">
+                    <button> <span>. </span>Ver los planes</button>
+                </div>
             </div>
+             </div>
             
         </section>
         
@@ -44,6 +52,7 @@ export default function Inicio (props){
                 <Beneficios elBeneficio='Adaptable a todo dispositivos' elBeneficioCuerpo='Todas las paginas estan diseñadas para adaptar todo los dispositivos como Tablet, Computador y celular. ' imagen={<BiMobileLandscape className="iconos" />} />
                 <Beneficios elBeneficio='Escalable' elBeneficioCuerpo='En la mayoria de nuestros planes las paginas pueden ser escalable en casos de que tu negocios crecemas' imagen={<BiTrendingUp className="iconos" />} />
             </div>
+            <Proyectos />
             <Servicios />
             
            

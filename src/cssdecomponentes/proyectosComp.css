@@ -21,7 +21,7 @@
     font-size: 130%;
     margin: 1rem;
 }
-img {
+.imagenProy img {
     border-radius: 1rem;
     margin: 0.5rem;
     max-width: 400px;
@@ -47,5 +47,5 @@ img {
     
 }
 .botonproyec:hover{
-    box-shadow: 10px 10px 5px 0px #a38dc4; 
+    box-shadow: 5px 5px 10px #888888;
 }
